@@ -1,74 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ariana Grande</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/e575ed9a59.js" crossorigin="anonymous"></script>
+  <title>Ariana Grande</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
 </head>
-<body> 
-    <header>
-        <nav>
-            <div>
-                <span></span>
-            </div>
-            <a href="Inicio">Inicio</a>
-            <a href="Sobre">Sobre</a>
-            <a href="Música">Música</a>
-
-        </nav>
-    </header>
-    <body background="background.jpg">
-    <h1>Ariana Grande</h1>
-    <img src="ariana grande.jpg" alt="Descripcion de la imagen">
-    <h2>¿Quien es Ariana Grande?</h2>
-    <p>Ariana Grande es una reconocida cantante, actriz y compositora estadounidense. Nació el 26 de junio de 1993 en Boca Ratón, Florida. Desde muy joven, Ariana mostró un gran talento para la música y la actuación, y comenzó su carrera en el mundo del entretenimiento en el teatro musical de Broadway.</p>
-    <h2>Inicios</h2>
-    <p>Sin embargo, fue en el año 2010 cuando Ariana ganó mayor reconocimiento al interpretar el papel de Cat Valentine en la exitosa serie de Nickelodeon "Victorious". Su carisma y talento vocal destacaron, y esto la llevó a lanzar su primer álbum de estudio en 2013, titulado "Yours Truly". El álbum fue un éxito y le permitió consolidarse como una prometedora artista pop.</p>
-    <img src="victorious.jpg" alt="Descripcion de la imagen">
-    <h3>Su carrera y albumes</h3>
-    <p>A lo largo de su carrera, Ariana Grande ha lanzado varios álbumes exitosos, incluyendo "My Everything" (2014), "Dangerous Woman" (2016), "Sweetener" (2018) y "Thank U, Next" (2019). Sus canciones suelen abordar temas como el amor, el empoderamiento y la superación personal.
-        <style>
-            .image-container {
-              display: flex;
-            }
-        
-            .image-container img {
-              width: 250px; /* Ajusta el tamaño de las imágenes según tus necesidades */
-              height: 250px;
-            }
-          </style>
-        </head>
-        <body>
-          <div class="image-container">
-            <img src="yourstruly.webp" alt="yourstruly">
-        
-            <img src="screamqueens.webp" alt="screamqueens">
+<body>
+  <header>
+          <h2 class="logo">Ariana Grande</h2>
+        <input type="checkbox" id="checkbox">
+         <label for="checkbox" class="mostrar-menu">
+         &#8801 
+         </label> 
+         <nav class="menu">
+<a href="#">Inicio</a>
+<a href="https://arianagrande.fandom.com/wiki/Ariana_Grande">Bio</a>
+<a href="https://www.arianagrande.com/music/?utm_campaign=nav&utm_medium=referral&utm_source=arianagrande.com">Musica</a>
+<label for="checkbox" class="esconder-menu"> 
+  &#215
+  </label>
+      </header>
+     <section id="banner">
+      <div class="contenido-banner">
+        <h3><span>Nuevo Álbum <span><br>Positions </span></span></h3>
+        <a href="https://arianagrande.lnk.to/PositionsDLX" class="boton-masinformacion">Escuchalo aquí</a>
+      </div>
+     </section>
+     <section id="nuevamusica">
+      <div>
+        <img src="34+35.jpg" alt="">
+        <h4>34 + 35 (REMIX) FT. DOJA CAT & MEGAN THEE STALLION </h4>
+        <a href="https://arianagrande.lnk.to/3435Remix" class="boton-escuchar">Escuchar</a>
+      </div>
+      <div>
+        <img src="positions1.jpg" alt="">
+        <h4>POSITIONS </h4>
+        <a href="https://arianagrande.lnk.to/PositionsDLX" class="boton-escuchar">Escuchar</a>
+      </div>
+     </section>
+     <section id="iconos">
+      <div id="contenido-iconos">
+        <div>
+          <i class="fa-brands fa-instagram fa-4x"></i>
+          <h6></h6>
+          <a href="https://www.instagram.com/arianagrande/"> Instagram</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-twitter fa-4x"></i>
+          <h6></h6>
+          <a href="https://twitter.com/ArianaGrande">Twitter</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-facebook fa-4x"></i>
+          <h6></h6>
+          <a href="https://www.facebook.com/arianagrande">Facebook</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-youtube fa-4x"></i>
+          <h6></h6>
+          <a href="https://www.youtube.com/c/arianagrande">YouTube</a>
+        </div>
+      </div>
+     </section>
+     <section id="contacto">
+      <h4>Quieres recibir más información?</h4>
+      <form action="#datos-form">
+      <div class="datos-form">
+        <div class="nombre">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        </div>
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" name="email id="email" placeholder="Email">
+        </div>
+        <div>
+          <div class="mensaje">
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
           </div>
-        </body>
-        Además de su destacada carrera musical, Ariana también ha incursionado en el mundo del cine y la televisión, participando en proyectos como la película "Scream Queens" y prestando su voz a personajes animados en películas como "Sing" y "Mi Villano Favorito 2".</p>
-        <h3>Premios y filantropia</h3>
-        <p>Ariana Grande es conocida por su distintiva voz de soprano, su estilo musical pop y R&B, así como por su imagen icónica con su característica cola de caballo alta. A lo largo de los años, ha ganado numerosos premios y reconocimientos, incluyendo premios Grammy, MTV Video Music Awards y Billboard Music Awards.
-            
-                  <img src="award.jpg" alt="award">
-            Ariana también ha utilizado su plataforma para apoyar causas benéficas y ha sido una defensora de los derechos de los animales y la igualdad de género. Su influencia en la cultura pop y su dedicación a su arte la han convertido en una de las artistas más exitosas y admiradas de la industria musical actual.</p>
-            <a href="www.arianagrande.con">Su sitio web oficial</a>
-     <h4>Quieres recibir mas información?</h4>     
-     <body>
-        <h1>Formulario de contacto</h1>
-        <form action="submit.php" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre"><br><br>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
-    
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje"></textarea><br><br>
-    
-            <input type="submit" value="Enviar">
-        </form>
-   
+          <div class="boton-formulario">
+            <a href="#" class="boton-saber-mas">Enviar Mensaje</a>
+          </div>  
+      </form>
+        </div>
+      </div>
+     </section>  
+<footer>
+      <p>&copy; 2023 Sebastian Jaramillo Zapata </p>
+     </footer>
 </body>
 </html>
